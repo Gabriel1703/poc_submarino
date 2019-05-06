@@ -8,12 +8,12 @@ class HomeSubmarinoPage < SitePrism::Page
  element :link_minha_conta, :xpath, "//a[@class='usr-account']"
  element :link_meus_pedidos, :xpath, "//a[@class='usr-orders']"
 #elementos do formulario logado
-  element :title_ola, :xpath, "//div[@class='usr-grt-text']"
+ element :title_ola, :xpath, "//div[@class='usr-grt-text']"
 
  #realiza acesso a pagina de Login
-  def acessar_login()
-   self.span_minha_conta.click
-   self.button_entrar.click
+  def acessar_login
+  self.span_minha_conta.click
+  self.button_entrar.click
   end
-  
+
 end

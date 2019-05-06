@@ -1,5 +1,9 @@
 #Autor:Gabriel Pereira
 user:
-  #usuário
-  user_submarino: 'jonylc1703@gmail.com'
+  #usuário valido
+  user_submarino: "jonylc1703@gmail.com"
   password_submarino: "Submarino#17"
+
+  #usuário sem cadastro
+  user_submarino_sem_cadastro: "gabrielp@submarino.com.br"
+  password_submarino_sem_cadastro: "Submarino#18"
